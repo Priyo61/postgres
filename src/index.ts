@@ -26,6 +26,7 @@ app.post("/signup", async (req, res) => {
   res.json({
     mgs: "you are signup",
   });
+  //wrong code
 });
 
 app.listen(3000);
